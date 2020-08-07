@@ -1,0 +1,40 @@
+.form {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+  }
+
+  .Tasks {
+    text-align: center;
+  }
+
+  .heading {
+    background-color: lightcoral;
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  .input {
+    width: 50vw;
+    border: none;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .button {
+    background-color: lightcoral;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+  }
+
+  

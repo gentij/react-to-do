@@ -1,0 +1,43 @@
+.tasks {
+    width: 50vw;
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.task {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.todo {
+    color: lightcoral;
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 2em;
+}
+
+.button {
+    background-color: lightcoral;
+    padding: .5rem 1.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    margin: 0 1em;
+}
+
+
+@media(max-width: 800px) {
+    .tasks {
+        width: 80vw;
+    }
+}
